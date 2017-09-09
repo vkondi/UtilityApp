@@ -1,0 +1,5 @@
+.navComponentOuterCls{
+    width: 100%;
+    height: 2em;
+    display: flex;
+}
