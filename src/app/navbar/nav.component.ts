@@ -6,5 +6,17 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.css']
 })
 export class NavComponent {
-  
+  tabArray: any = [{
+      title: 'Home',
+      class: 'tabCls'
+  }, {
+      title: 'Tab One',
+      class: 'tabCls'
+  }, {
+      title: 'Test',
+      class: 'tabCls'
+  }, {
+      title: 'Details',
+      class: 'tabCls'
+  }]
 }
